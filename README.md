@@ -41,13 +41,23 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 Projeyi çalıştırdıktan sonra, aşağıdaki özellikleri kullanabilirsiniz:
 
 Anasayfa: Kan bağışı yapmanın önemini vurgulayan bilgiler ve çağrı butonları.
+
 Kontrol Paneli: Kan stoğu, grafikler ve istatistikler ile yönetim araçları.
+
 Kan Stoğu: Farklı kan gruplarının stok durumunu görüntüleme ve yönetme.
+
 Bağışçı Bilgileri: Bağışçıların bilgilerini ekleme, düzenleme ve görüntüleme.
+
 Son Kullanma Tarihi Analizi: Kan ürünlerinin son kullanma tarihlerini analiz etme ve stok yönetimini optimize etme.
-Katkıda Bulunanlar
+
+
+## Katkıda Bulunanlar
+
 Bu proje, aşağıdaki öğrenciler tarafından geliştirilmiştir:
 
+
 **Selin ŞAHİN - Öğrenci No: g211210087**
+
+
 **Mustafa İkbal AVCI - Öğrenci No: b201210070**
 
