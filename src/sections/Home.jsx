@@ -3,32 +3,37 @@ import React from "react";
 const Home = () => {
   return (
     <div style={styles.homeContainer}>
-      <div style={styles.header}>
-        <h2 style={styles.mainTitle}>Kan Bağışı Yap, Hayat Kurtar!</h2>
-      </div>
+      <header style={styles.header}>
+        <h1 style={styles.mainTitle}>Kan Bağışı Yap, Hayat Kurtar!</h1>
+        <p style={styles.subtitle}>Bir damla kan, bin umut demektir.</p>
+      </header>
 
-      <div style={styles.banner}>
-        <h3 style={styles.title}>Kan Bağışı Yap, Hayat Kurtar!</h3>
-        <p style={styles.description}>
-          Bir torba kan, üç hayatı kurtarabilir. Bugün bağış yapın ve fark
-          yaratın!
+      <section style={styles.banner}>
+        <h2 style={styles.bannerTitle}>Bugün Bağış Yapın</h2>
+        <p style={styles.bannerDescription}>
+          Kan bağışı yaparak ihtiyaç sahibi insanlara umut olabilirsiniz. Hemen
+          en yakın kan bağışı merkezine gidin veya randevu alın.
         </p>
-        <button style={styles.ctaButton}>Lütfen Bağış Yapalım!</button>
-      </div>
+        <button style={styles.ctaButton}>Bağış Yapalım!</button>
+      </section>
 
-      <div style={styles.stats}>
+      <section style={styles.statistics}>
         <div style={styles.statCard}>
-          <h3 style={styles.statTitle}>Bağışçı Sayısı</h3>
-          <p style={styles.statValue}>2,500+</p>
+          <h3 style={styles.statNumber}>2,500+</h3>
+          <p style={styles.statLabel}>Bağışçı</p>
         </div>
         <div style={styles.statCard}>
-          <h3 style={styles.statTitle}>Hayat Kurtarılan</h3>
-          <p style={styles.statValue}>7,500+</p>
+          <h3 style={styles.statNumber}>7,500+</h3>
+          <p style={styles.statLabel}>Hayat Kurtarılan</p>
         </div>
-      </div>
+        <div style={styles.statCard}>
+          <h3 style={styles.statNumber}>1,200+</h3>
+          <p style={styles.statLabel}>Bağış Merkezi</p>
+        </div>
+      </section>
 
       <footer style={styles.footer}>
-        <p>&copy; 2025 Kan Bağışı Platformu</p>
+        <p>&copy; 2025 Kan Bağışı Platformu | Tüm hakları saklıdır.</p>
       </footer>
     </div>
   );
@@ -36,79 +41,87 @@ const Home = () => {
 
 const styles = {
   homeContainer: {
-    fontFamily: "Arial, sans-serif",
-    color: "#fff",
-    backgroundColor: "#f44336",
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    color: "#333",
+    backgroundColor: "#f9f9f9",
     padding: "20px",
     textAlign: "center",
   },
   header: {
-    backgroundColor: "#8b0000",
-    padding: "30px",
-    marginBottom: "40px",
+    backgroundColor: "#e53935",
+    color: "#fff",
+    padding: "60px 20px",
     borderRadius: "10px",
+    marginBottom: "40px",
   },
   mainTitle: {
-    fontSize: "4rem",
-    fontWeight: "bold",
-    color: "#fff",
-    textTransform: "uppercase",
-    letterSpacing: "5px",
-    textShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)",
-  },
-  banner: {
-    marginBottom: "40px",
-    backgroundColor: "#8b0000",
-    padding: "40px",
-    borderRadius: "10px",
-  },
-  title: {
     fontSize: "3rem",
-    fontWeight: "bold",
-    color: "#fff",
+    margin: "0",
+    fontWeight: "700",
   },
-  description: {
+  subtitle: {
     fontSize: "1.2rem",
     marginTop: "10px",
-    color: "#ffeb3b",
+  },
+  banner: {
+    backgroundColor: "#ffffff",
+    padding: "40px 20px",
+    borderRadius: "10px",
+    boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+    marginBottom: "40px",
+  },
+  bannerTitle: {
+    fontSize: "2rem",
+    color: "#e53935",
+    marginBottom: "20px",
+  },
+  bannerDescription: {
+    fontSize: "1rem",
+    color: "#555",
+    marginBottom: "30px",
+    maxWidth: "600px",
+    margin: "0 auto 30px",
   },
   ctaButton: {
-    marginTop: "20px",
-    padding: "12px 24px",
-    backgroundColor: "#ffeb3b",
-    color: "#8b0000",
-    fontSize: "1.2rem",
-    fontWeight: "bold",
+    padding: "12px 30px",
+    backgroundColor: "#e53935",
+    color: "#fff",
+    fontSize: "1rem",
+    fontWeight: "600",
     border: "none",
-    borderRadius: "5px",
+    borderRadius: "25px",
     cursor: "pointer",
     transition: "background-color 0.3s",
   },
-  stats: {
+  statistics: {
     display: "flex",
     justifyContent: "center",
-    gap: "40px",
-    marginTop: "40px",
+    gap: "30px",
+    flexWrap: "wrap",
+    marginBottom: "40px",
   },
   statCard: {
-    backgroundColor: "#d32f2f",
-    padding: "20px",
+    backgroundColor: "#fff",
+    padding: "30px 20px",
     borderRadius: "10px",
-    width: "200px",
+    boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+    flex: "1 1 200px",
+    maxWidth: "250px",
   },
-  statTitle: {
-    fontSize: "1.5rem",
-    marginBottom: "10px",
-  },
-  statValue: {
+  statNumber: {
     fontSize: "2.5rem",
-    fontWeight: "bold",
+    color: "#e53935",
+    margin: "0",
+  },
+  statLabel: {
+    fontSize: "1rem",
+    color: "#777",
+    marginTop: "10px",
   },
   footer: {
-    marginTop: "60px",
-    backgroundColor: "#8b0000",
-    padding: "10px",
+    backgroundColor: "#e53935",
     color: "#fff",
+    padding: "20px",
     borderRadius: "5px",
   },
 };

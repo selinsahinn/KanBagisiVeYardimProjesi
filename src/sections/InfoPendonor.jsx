@@ -17,7 +17,7 @@ export const data = {
   labels: ["Erkek", "Kadın"],
   datasets: [
     {
-      label: "RBağışta bulunanların cinsiyet oranı",
+      label: "Bağışta bulunanların cinsiyet oranı",
       data: [getMaleAmount(fakeApi), getFemaleAmount(fakeApi)],
       backgroundColor: ["rgba(128, 202, 255, 1)", "rgba(255, 175, 163, 1)"],
     },
@@ -37,7 +37,7 @@ const Dashboard = () => {
                   <Th>Bağış Tarihi</Th>
                   <Th>Bağışçı Adı</Th>
                   <Th>Kan Grubu</Th>
-                  <Th>Kantor Sayısı</Th>
+                  <Th>Kan torbası Sayısı</Th>
                   <Th>Kanın Son Kullanma Tarihi</Th>
                   <Th>Cinsiyet</Th>
                   <Th>İşlem</Th>
@@ -71,7 +71,7 @@ const Dashboard = () => {
                       </Td>
                       <Td>
                         <span className="text-brown hover:underline cursor-pointer">
-                          Hapus
+                          Silme
                         </span>
                       </Td>
                     </Tr>
