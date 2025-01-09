@@ -8,8 +8,6 @@ Bilgisayar Mühendisliği Tasarım Dersi projesi kapsamında geliştirilen Kan B
 - [Kurulum](#kurulum)
 - [Kullanım](#kullanım)
 - [Katkıda Bulunanlar](#katkıda-bulunanlar)
-- [Teknolojiler](#teknolojiler)
-- [İletişim](#iletişim)
 
 ## Özellikler
 
@@ -37,7 +35,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 
 **Proje, http://localhost:5173 adresinde çalışmaya başlayacaktır.**
 
-**Kullanım**
+## Kullanım
 Projeyi çalıştırdıktan sonra, aşağıdaki özellikleri kullanabilirsiniz:
 
 Anasayfa: Kan bağışı yapmanın önemini vurgulayan bilgiler ve çağrı butonları.
