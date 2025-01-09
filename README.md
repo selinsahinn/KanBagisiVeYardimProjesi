@@ -1,4 +1,4 @@
-# Kan Bağışı Platformu
+# Kan Bağışı ve Yardımı Projesi
 
 Bilgisayar Mühendisliği Tasarım Dersi projesi kapsamında geliştirilen Kan Bağışı Platformu, kullanıcıların kan bağışı yapmalarını kolaylaştırmayı ve kan stoklarını yönetmeyi amaçlamaktadır. Bu platform, hem bağışçıların hem de yöneticilerin ihtiyaçlarına yönelik çeşitli özellikler sunmaktadır.
 
@@ -24,27 +24,20 @@ Bilgisayar Mühendisliği Tasarım Dersi projesi kapsamında geliştirilen Kan B
 Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 1. **Depoyu Klonlayın:**
+   git clone https://github.com/selinsahinn/KanBagisiVeYardimProjesi.git
+   
+2. **Proje Dizini İçine Geçin:**
+   cd kan-bagisi-platformu
+   
+3. **Gerekli Bağımlılıkları Yükleyin:**
+   npm install
+   
+4. **Projeyi Başlatın:**
+   npm run dev
 
-   ```bash
-   git clone https://github.com/kullaniciadi/kan-bagisi-platformu.git
-Proje Dizini İçine Geçin:
+**Proje, http://localhost:5173 adresinde çalışmaya başlayacaktır.**
 
-bash
-Kodu kopyala
-cd kan-bagisi-platformu
-Gerekli Bağımlılıkları Yükleyin:
-
-bash
-Kodu kopyala
-npm install
-Projeyi Başlatın:
-
-bash
-Kodu kopyala
-npm run dev
-Proje, http://localhost:5173 adresinde çalışmaya başlayacaktır.
-
-Kullanım
+**Kullanım**
 Projeyi çalıştırdıktan sonra, aşağıdaki özellikleri kullanabilirsiniz:
 
 Anasayfa: Kan bağışı yapmanın önemini vurgulayan bilgiler ve çağrı butonları.
@@ -55,6 +48,6 @@ Son Kullanma Tarihi Analizi: Kan ürünlerinin son kullanma tarihlerini analiz e
 Katkıda Bulunanlar
 Bu proje, aşağıdaki öğrenciler tarafından geliştirilmiştir:
 
-Selin ŞAHİN - Öğrenci No: g211210087
-Mustafa İkbal AVCI - Öğrenci No: b201210070
+**Selin ŞAHİN - Öğrenci No: g211210087**
+**Mustafa İkbal AVCI - Öğrenci No: b201210070**
 
